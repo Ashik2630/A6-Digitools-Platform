@@ -12,8 +12,8 @@ const StepsSection = () => {
           Start using premium digital tools in minutes, not hours.
         </p>
       </div>
-      <div className="card-container flex-wrap md:flex   justify-center gap-10">
-        <div className="bg-base-100 shadow w-96 h-96">
+      <div className="card-container flex-wrap md:flex  ml-12 md:ml-0 justify-center gap-10">
+        <div className="bg-base-100 shadow w-96 h-96 hover:scale-105 transition duration-300 ">
           <div className=" flex items-center justify-end m-5 p-2">
             <span className=" p-1 border rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white text-sm font-bold text-center">01</span>
           </div>
@@ -28,7 +28,7 @@ const StepsSection = () => {
             </p>
           </div>
         </div>
-        <div className="bg-base-100 shadow w-96 h-96">
+        <div className="bg-base-100 shadow w-96 h-96 hover:scale-105 transition duration-300 ">
           <div className=" flex items-center justify-end m-5 p-2">
             <span className=" p-1 border rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white text-sm font-bold text-center">02</span>
           </div>
@@ -42,7 +42,7 @@ const StepsSection = () => {
             </p>
           </div>
         </div>
-        <div className="bg-base-100 shadow w-96 h-96">
+        <div className="bg-base-100 shadow w-96 h-96 hover:scale-105 transition duration-300 ">
           <div className=" flex items-center justify-end m-5 p-2">
             <span className=" p-1 border rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white text-sm font-bold text-center">03</span>
           </div>

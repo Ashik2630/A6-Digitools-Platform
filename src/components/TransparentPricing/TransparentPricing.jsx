@@ -5,15 +5,15 @@ const TransparentPricing = () => {
   return (
     <div className="m-20">
       <div className="text-center">
-        <h1 className="text-5xl font-bold mb-4">Simple, Transparent Pricing</h1>
+        <h1 className="text-3xl md:text-5xl md:font-extrabold mb-4">Simple, Transparent Pricing</h1>
         <p className="text-[#627382]">
           Choose the plan that fits your needs. Upgrade or downgrade anytime.
         </p>
       </div>
       {/* main container */}
-      <div className="flex-row md:flex gap-5 justify-center mt-10">
+      <div className="flex-row md:flex gap-5  justify-center mt-10 ">
         {/* card-1 */}
-        <div className="bg-base-100 shadow-2xl w-96 flex-col rounded-2xl ">
+        <div className="bg-base-100 shadow-2xl w-96 flex-col rounded-2xl mb-10 pb-10 md:pb-10 md:mb-0 ">
           <div className="ml-10">
             <h2 className="text-2xl font-bold pt-5">Starter</h2>
             <p className="text-[#627382] mb-2">Perfect for getting started</p>
@@ -41,7 +41,7 @@ const TransparentPricing = () => {
           </button>
         </div>
         {/* card-2 */}
-        <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] shadow-2xl w-96  rounded-2xl pb-10 text-white hover:scale-105 transition duration-300">
+        <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] shadow-2xl w-96  rounded-2xl text-white hover:scale-105 transition duration-300 mb-10 pb-10 md:mb-0 md:pb-0">
           <div className="ml-10 text-white">
             <h2 className="text-2xl font-bold pt-5">Pro</h2>
             <p className=" mb-2">Best for professionals</p>
@@ -77,7 +77,7 @@ const TransparentPricing = () => {
           </button>
         </div>
         {/* card-3 */}
-        <div className="bg-base-100 shadow-2xl w-96 rounded-2xl">
+        <div className="bg-base-100 shadow-2xl w-96 rounded-2xl mb-10 pb-10 md:mb-0 md:pb-0">
           <div className="ml-10">
             <h2 className="text-2xl font-bold pt-5">Enterprise</h2>
             <p className="text-[#627382] mb-2">For teams and businesses</p>

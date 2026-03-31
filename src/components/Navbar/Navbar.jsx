@@ -48,7 +48,7 @@ const Navbar = () => {
         <div className="navbar-end space-x-8">
           <LuShoppingCart />
           <p className="text-[16px]">Login</p>
-          <button className="btn rounded-full px-4 py-2 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white ">Get Started</button>
+          <button className="btn rounded-full px-4 py-2 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white hover:scale-105 transition duration-300 ">Get Started</button>
         </div>
       </div>
     </div>

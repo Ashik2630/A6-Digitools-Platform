@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "badge": "Best Seller",
+    "icon": "document-pen",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": "$29/Mo",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker"
+    ],
+    "cta": "Buy Now"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "badge": "Popular",
+    "icon": "design-pencils",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": "$49/One-Time",
+    "features": [
+      "2000+ templates",
+      "Monthly updates",
+      "Commercial license"
+    ],
+    "cta": "Buy Now"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "badge": "New",
+    "icon": "stock-camera",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": "$19/Mo",
+    "features": [
+      "10M+ assets",
+      "Commercial use",
+      "No attribution"
+    ],
+    "cta": "Buy Now"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "badge": "Popular",
+    "icon": "automation-gears",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    "price": "$79/Mo",
+    "features": [
+      "50+ automations",
+      "API access",
+      "Custom workflows"
+    ],
+    "cta": "Buy Now"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "badge": "New",
+    "icon": "resume-document",
+    "description": "Create professional resumes and cover letters that land interviews.",
+    "price": "$15/One-Time",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "cta": "Buy Now"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "badge": "Best Seller",
+    "icon": "social-icons",
+    "description": "Complete toolkit for creating engaging social media content across all platforms.",
+    "price": "$39/Mo",
+    "features": [
+      "5000+ assets",
+      "Scheduler included",
+      "Analytics dashboard"
+    ],
+    "cta": "Buy Now"
+  },
+  {
+    "id": 7,
+    "name": "AI Image Generator",
+    "badge": "Popular",
+    "icon": "ai-image",
+    "description": "Create stunning images, art, and visuals from text prompts using cutting-edge AI models.",
+    "price": "$25/Mo",
+    "features": [
+      "Unlimited generations",
+      "100+ art styles & models",
+      "Commercial rights included"
+    ],
+    "cta": "Buy Now"
+  },
+  {
+    "id": 8,
+    "name": "Newsletter Builder Pro",
+    "badge": "New",
+    "icon": "email-newsletter",
+    "description": "Design, write, and send beautiful newsletters with AI-powered copy and templates.",
+    "price": "$29/Mo",
+    "features": [
+      "100+ responsive templates",
+      "AI content writer",
+      "Subscriber analytics & automation"
+    ],
+    "cta": "Buy Now"
+  },
+  {
+    "id": 9,
+    "name": "AI Presentation Maker",
+    "badge": "Best Seller",
+    "icon": "presentation-slide",
+    "description": "Build professional presentations in minutes with AI content suggestions and smart layouts.",
+    "price": "$27/Mo",
+    "features": [
+      "500+ slide templates",
+      "AI text & image generation",
+      "Export to PowerPoint & PDF"
+    ],
+    "cta": "Buy Now"
+  },
+  {
+    "id": 10,
+    "name": "SEO Content Optimizer",
+    "badge": "Popular",
+    "icon": "seo-chart",
+    "description": "Optimize blog posts and web content for search engines with real-time AI analysis.",
+    "price": "$35/Mo",
+    "features": [
+      "Keyword research tool",
+      "Readability & SEO scoring",
+      "Competitor analysis dashboard"
+    ],
+    "cta": "Buy Now"
+  }
+]
