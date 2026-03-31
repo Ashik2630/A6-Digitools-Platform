@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
+import checkImg from "../../assets/products/Check.png";
 
-const Product = ({ product }) => {
-  const { name, badge, image, description, price, features, cta } = product;
+const Product = ({ product, selectedProduct, setSelectedBuy }) => {
+  const { name, badge, image, description, price, features } = product;
+  const [isBuy, setIsBuy] = useState(false);
+
+  const handleBuyNowBtn = () => {
+    setIsBuy(true)
+    setSelectedBuy([...selectedProduct, product])
+  }
+
   return (
     <div class=" grid  items-center justify-center  ">
-      <div class="flex-col w-full max-w-sm bg-white rounded-3xl shadow-xl overflow-hidden border border-blue-200">
+      <div class="flex-col w-full max-w-sm bg-white rounded-3xl shadow-xl overflow-hidden border border-blue-200 hover:scale-105 transition duration-300">
         {/* <!-- Top border accent --> */}
         <div class="h-1 bg-blue-500"></div>
 
@@ -12,7 +20,9 @@ const Product = ({ product }) => {
           {/* <!-- Header with icon and badge --> */}
           <div class="flex justify-between items-start mb-6">
             <div class="w-12 h-12 bg-yellow-100 rounded-2xl flex items-center justify-center">
-              <span class="text-3xl"><img src={image} alt="" /></span>
+              <span class="text-3xl">
+                <img src={image} alt="" />
+              </span>
             </div>
 
             <div class="bg-yellow-400 text-yellow-900 text-xs font-semibold px-4 py-1.5 rounded-full flex items-center gap-1">
@@ -26,7 +36,7 @@ const Product = ({ product }) => {
 
           {/* <!-- Description --> */}
           <p class="text-gray-600 text-[15px] leading-relaxed mb-6">
-           {description}
+            {description}
           </p>
 
           {/* <!-- Pricing --> */}
@@ -57,8 +67,18 @@ const Product = ({ product }) => {
           </ul>
 
           {/* <!-- Buy Now Button --> */}
-          <button class="w-full bg-linear-to-r from-violet-600 to-purple-600 hover:from-violet-700 hover:to-purple-700 text-white font-semibold py-4 px-6 rounded-2xl text-lg shadow-lg shadow-purple-500/30 transition-all active:scale-[0.97]">
-            {cta}
+          <button
+            onClick={ handleBuyNowBtn}
+            class="w-full bg-linear-to-r from-violet-600 to-purple-600 hover:from-violet-700 hover:to-purple-700 text-white font-semibold py-4 px-6 rounded-2xl text-lg shadow-lg shadow-purple-500/30 transition-all active:scale-[0.97]"
+          >
+            {isBuy ? (
+              <span className="flex text-center justify-center items-center gap-2">
+                <img src={checkImg} alt="check" className="w-4 h-4" />
+                Added to cart
+              </span>
+            ) : (
+              "Buy Now"
+            )}
           </button>
         </div>
       </div>
