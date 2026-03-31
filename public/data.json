@@ -3,7 +3,7 @@
     "id": 1,
     "name": "AI Writing Pro",
     "badge": "Best Seller",
-    "icon": "document-pen",
+    "image": "https://i.ibb.co.com/gbWnm8M2/writing-2327400-1.png",
     "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
     "price": "$29/Mo",
     "features": [
@@ -17,7 +17,7 @@
     "id": 2,
     "name": "Design Templates Pack",
     "badge": "Popular",
-    "icon": "design-pencils",
+    "image": "https://i.ibb.co.com/wrdJWY96/design-tool.png",
     "description": "2000+ premium templates for social media, presentations, and marketing materials.",
     "price": "$49/One-Time",
     "features": [
@@ -31,7 +31,7 @@
     "id": 3,
     "name": "Premium Stock Assets",
     "badge": "New",
-    "icon": "stock-camera",
+    "image": "https://i.ibb.co.com/J1v717t/camera-8775444-1.png",
     "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
     "price": "$19/Mo",
     "features": [
@@ -45,7 +45,7 @@
     "id": 4,
     "name": "Automation Toolkit",
     "badge": "Popular",
-    "icon": "automation-gears",
+    "image": "https://i.ibb.co.com/WSssmrt/operation.png",
     "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
     "price": "$79/Mo",
     "features": [
@@ -59,7 +59,7 @@
     "id": 5,
     "name": "Resume Builder Pro",
     "badge": "New",
-    "icon": "resume-document",
+    "image": "https://i.ibb.co.com/RkVbjLHt/portfolio.png",
     "description": "Create professional resumes and cover letters that land interviews.",
     "price": "$15/One-Time",
     "features": [
@@ -73,7 +73,7 @@
     "id": 6,
     "name": "Social Media Content Kit",
     "badge": "Best Seller",
-    "icon": "social-icons",
+    "image": "https://i.ibb.co.com/QvHNQXKt/social-media.png",
     "description": "Complete toolkit for creating engaging social media content across all platforms.",
     "price": "$39/Mo",
     "features": [
@@ -87,7 +87,7 @@
     "id": 7,
     "name": "AI Image Generator",
     "badge": "Popular",
-    "icon": "ai-image",
+    "image": "https://i.ibb.co.com/h1ndGsSK/ai-generate-logo-artificial-intelligence-600nw-2579491023.webp",
     "description": "Create stunning images, art, and visuals from text prompts using cutting-edge AI models.",
     "price": "$25/Mo",
     "features": [
@@ -101,7 +101,7 @@
     "id": 8,
     "name": "Newsletter Builder Pro",
     "badge": "New",
-    "icon": "email-newsletter",
+    "image": "https://i.ibb.co.com/TMVFWM6X/4627609.png",
     "description": "Design, write, and send beautiful newsletters with AI-powered copy and templates.",
     "price": "$29/Mo",
     "features": [
@@ -115,7 +115,7 @@
     "id": 9,
     "name": "AI Presentation Maker",
     "badge": "Best Seller",
-    "icon": "presentation-slide",
+    "image": "https://i.ibb.co.com/d44dBGz1/1436716.png",
     "description": "Build professional presentations in minutes with AI content suggestions and smart layouts.",
     "price": "$27/Mo",
     "features": [
@@ -129,7 +129,7 @@
     "id": 10,
     "name": "SEO Content Optimizer",
     "badge": "Popular",
-    "icon": "seo-chart",
+    "image": "https://i.ibb.co.com/FbJdkVYD/marketing-icon-seo-chart-going-up-on-a-computer-screen-with-a-magnifying-glass-branding-strategy-dig.jpg",
     "description": "Optimize blog posts and web content for search engines with real-time AI analysis.",
     "price": "$35/Mo",
     "features": [
