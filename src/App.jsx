@@ -1,4 +1,4 @@
-import { Suspense, } from 'react'
+import { Suspense, useState, } from 'react'
 import './App.css'
 import Banner from './components/Banner/Banner'
 import StatsSection from './components/Banner/StatsSection'
@@ -16,22 +16,26 @@ const fetchProducts = async() => {
 
 function App() {
   const productsPromise = fetchProducts();
-  // const [cart, setCart] = useState()
+  const [selectedProduct, setSelectedProduct] = useState([]);
   return (
     <>
       <header>
-      <Navbar />
+      <Navbar selectedProduct={selectedProduct} />
       </header>
+
       <main>
       <Banner></Banner>
       <StatsSection/>
       <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
-        <PremiumTools productsPromise={productsPromise}/>
+        <PremiumTools productsPromise={productsPromise}
+        selectedProduct={selectedProduct} 
+        setSelectedProduct={setSelectedProduct}/>
       </Suspense>
       <StepsSection/>
       <TransparentPricing/>
       <Workflow/>
       </main>
+      
       <footer>
         <Footer/>
       </footer>

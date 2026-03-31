@@ -2,11 +2,11 @@ import React, { use, useState } from "react";
 import Product from "./Product";
 import Cart from "../Cart/Cart";
 
-const PremiumTools = ({ productsPromise }) => {
+const PremiumTools = ({ productsPromise, selectedProduct, setSelectedProduct }) => {
   const products = use(productsPromise);
   // console.log(products);
   const [selectedType, setSelectedType] = useState("products");
-  const [selectedProduct, setSelectedProduct] = useState([]);
+  
 
   return (
     <div className="max-w-325 mx-auto">
