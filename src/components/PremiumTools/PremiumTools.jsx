@@ -6,7 +6,7 @@ const PremiumTools = ({ productsPromise }) => {
   const products = use(productsPromise);
   // console.log(products);
   const [selectedType, setSelectedType] = useState("products");
-  const [selectedProduct, setSelectedBuy] = useState([])
+  const [selectedProduct, setSelectedProduct] = useState([]);
 
   return (
     <div className="max-w-325 mx-auto">
@@ -39,20 +39,26 @@ const PremiumTools = ({ productsPromise }) => {
               : "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-transparent bg-clip-text"
           }`}
         >
-          Cart (0)
+          Cart ({selectedProduct.length})
         </button>
       </div>
-      <div className="grid md:grid-cols-3 gap-5">
+      <>
         {selectedType === "products" ? (
-          products.map((product) => (
-            <Product key={product.id} product={product}
-            selectedBuy={selectedProduct}
-            setSelectedBuy={setSelectedBuy} />
-          ))
-        ) : (  
-          <Cart selectedBuy={selectedProduct}  />
+          <div className="grid md:grid-cols-3 gap-5">
+            {products.map((product) => (
+              <Product
+                key={product.id}
+                product={product}
+                selectedProduct={selectedProduct}
+                setSelectedProduct={setSelectedProduct}
+              />
+            ))}
+          </div>
+        ) : (
+          <Cart selectedProduct={selectedProduct}
+           setSelectedProduct={setSelectedProduct} />
         )}
-      </div>
+      </>
     </div>
   );
 };
