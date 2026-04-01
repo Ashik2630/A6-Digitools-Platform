@@ -1,16 +1,24 @@
-# React + Vite
+### 📂 GitHub Repository
+- Create Beautiful Github Readme with following description
+    - Name of your  Project
+    - A little Description
+    - Technology that you use
+    - 3 Features about your project. 
+ 
+### Name of My  Project: 
+Digitals-Platform by AI Gaged Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### A little Description: 
+I am created by a digital platform, like premium digital tools website, and you can try to buy now for some gadgets, AI writing, using AI and social media content, and build a newsletter, all everything, like as a very useful for our life.
 
-Currently, two official plugins are available:
+## ⚙️ Technologies Used
+- React.js  
+- Tailwind CSS, DaisyUI 
+- JavaScript (ES6+)  
+- React-Toastify (NPM Package)  
+- JSON (for product data)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📤 What to submit:
+- GitHub Repository Link: https://github.com/Ashik2630/A6-Digitools-Platform
+- Live Site Link: https://vermillion-horse-be9e72.netlify.app/
