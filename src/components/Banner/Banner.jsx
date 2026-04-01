@@ -13,8 +13,8 @@ const Banner = () => {
       </span>
       New: AI-Powered Tools Available
     </span>
-        <h1 className="text-3xl md:text-7xl font-extrabold mb-4">Supercharge Your Digital Workflow</h1>
-        <p className="text-[#627382] mb-4">
+        <h1 className="text-2xl md:text-7xl font-extrabold mb-4">Supercharge Your Digital Workflow</h1>
+        <p className="text-[#627382] mb-4 w-100">
           Access premium AI tools, design assets, templates, and productivity
           software—all in one place. Start creating faster today. Explore
           Products
@@ -24,7 +24,7 @@ const Banner = () => {
             <button className="  flex justify-center items-center btn bg-transparent border border-[#4F39F6] text-[#9514FA]  rounded-full py-6 px-6 "><IoPlayOutline className="hover:animate-ping"/> Watch Demo</button>
         </div>
       </div>
-      <div className="right md:mr-30 p-5 hover:scale-105 transition duration-300 ">
+      <div className="right ml-2 md:mr-30 p-5 hover:scale-105 transition duration-300 ">
         <img src={bannerImg} alt="" />
       </div>
     </div>

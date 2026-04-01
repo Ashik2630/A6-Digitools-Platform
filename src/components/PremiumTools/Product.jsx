@@ -71,6 +71,7 @@ const Product = ({ product, selectedProduct, setSelectedProduct }) => {
 
           {/* <!-- Buy Now Button --> */}
           <button
+            type="button"
             onClick={ handleBuyNowBtn}
             className="w-full bg-linear-to-r from-violet-600 to-purple-600 hover:from-violet-700 hover:to-purple-700 text-white font-semibold py-4 px-6 rounded-2xl text-lg shadow-lg shadow-purple-500/30 transition-all active:scale-[0.97]"
           >

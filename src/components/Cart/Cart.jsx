@@ -17,7 +17,7 @@ const Cart = ({ selectedProduct, setSelectedProduct }) => {
   }, 0);
 
   return (
-    <div className="mb-20">
+    <div className="mb-20 p-2 md:p-2">
       <div className="space-y-5">
         <h1 className="text-2xl font-bold">Your Cart</h1>
 

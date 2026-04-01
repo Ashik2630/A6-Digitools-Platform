@@ -6,19 +6,19 @@ const Navbar = ({ selectedProduct }) => {
   const Links = (
     <>
       <li>
-        <a href="#products">Products</a>
+        <a href="/products">Products</a>
       </li>
       <li>
-        <a href="#features">Features</a>
+        <a href="/features">Features</a>
       </li>
       <li>
-        <a href="#pricing">Pricing</a>
+        <a href="/pricing">Pricing</a>
       </li>
       <li>
-        <a href="#testimonials">Testimonials</a>
+        <a href="/testimonials">Testimonials</a>
       </li>
       <li>
-        <a href="#faq">FAQ</a>
+        <a href="/faq">FAQ</a>
       </li>
     </>
   );
@@ -38,7 +38,7 @@ const Navbar = ({ selectedProduct }) => {
               {Links}
             </ul>
           </div>
-          <a className="text-4xl font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-transparent bg-clip-text p-2">
+          <a className=" text-xl md:text-4xl font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-transparent bg-clip-text p-2">
             DigiTools
           </a>
         </div>
@@ -47,10 +47,10 @@ const Navbar = ({ selectedProduct }) => {
           <ul className="menu menu-horizontal px-1 text-[16px] font-semibold">{Links}</ul>
         </div>
 
-        <div className="navbar-end flex items-center space-x-8 relative">
+        <div className="navbar-end flex items-center space-x-4 md:space-x-8 relative">
           
           <div className="relative">
-            <LuShoppingCart className="text-2xl" />
+            <LuShoppingCart className="text-2xl " />
             {selectedProduct.length > 0 && (
               <span className="absolute -top-2 -right-2 bg-red-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-[12px] font-bold">
                 {selectedProduct.length}

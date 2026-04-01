@@ -4,14 +4,13 @@ import Cart from "../Cart/Cart";
 
 const PremiumTools = ({ productsPromise, selectedProduct, setSelectedProduct }) => {
   const products = use(productsPromise);
-  // console.log(products);
   const [selectedType, setSelectedType] = useState("products");
   
 
   return (
     <div className="max-w-325 mx-auto">
       <div className="text-center">
-        <h1 className="text-5xl font-black mb-5">Premium Digital Tools</h1>
+        <h1 className="text-3xl md:text-5xl font-black mb-5">Premium Digital Tools</h1>
         <p className="text-[#627382] mb-10">
           Choose from our curated collection of premium digital products
           designed <br /> to boost your productivity and creativity.

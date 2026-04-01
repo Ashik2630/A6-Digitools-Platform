@@ -7,12 +7,12 @@ const StepsSection = () => {
   return (
     <div className="bg-[#F9FAFC] pb-20">
       <div className="text-center p-20">
-        <h1 className="text-5xl font-extrabold mb-5">Get Started in 3 Steps</h1>
+        <h1 className="text-4xl md:text-5xl font-extrabold mb-5">Get Started in 3 Steps</h1>
         <p className="text-[#627382]">
           Start using premium digital tools in minutes, not hours.
         </p>
       </div>
-      <div className="card-container flex-wrap md:flex  ml-12 md:ml-0 justify-center gap-10">
+      <div className="card-container flex-wrap md:flex  ml-5 md:ml-0 justify-center gap-10">
         <div className="bg-base-100 shadow w-96 h-96 hover:scale-105 transition duration-300 ">
           <div className=" flex items-center justify-end m-5 p-2">
             <span className=" p-1 border rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white text-sm font-bold text-center">01</span>
